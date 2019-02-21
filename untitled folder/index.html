@@ -1,0 +1,186 @@
+<!doctype html>
+
+<html lang="cs">
+  <head>
+    <title>Vážení a milí spoluobčané!
+</title>	
+    <style>
+  body {
+    color: black;
+    background: white;
+  }
+  .container {          /* Selektor začínající tečkou se týká všech elementů dané třídy */
+  width: 90%;         /* Šířka */
+  max-width: 600px;   /* Maximální šířka */
+  margin: auto;       /* Zarovnání bloku na střed */
+  text-align: justify; /* Zarovnání textu na střed */
+}
+body {
+  font-size: 20px;
+}
+@media(max-width: 1200px) {
+  body {
+    font-size: 18px;
+  }
+}
+@media(max-width: 1000px) {
+  body {
+    font-size: 16px;
+  }
+}
+@media(max-width: 700px) {
+  body {
+    font-size: 14px;
+  }
+}
+@media(max-width: 500px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+#section1 {
+  color: LightCyan;
+  background: DarkMagenta;
+}
+#section2 {
+  color: LightSalmon;
+  background: SaddleBrown;
+}
+#section3 {
+  color: DarkOliveGreen;
+  background: PaleGreen;
+}
+#section4 {
+  color: Lime;
+  background: Black;
+}
+#section5 {
+  color: SaddleBrown;
+  background: LightYellow;
+}
+
+
+body {
+	margin: 0;
+}  
+
+.menu {
+  background: black;
+  color: white;
+  width: 100%;
+  position: fixed; /* Tohle "připíchne" menu, takže nebude scrollovat */
+  top: 0; /* Menu chceme na vrchu stránky */
+}
+.menu-items {
+  display: flex; /* Flexbox umožňuje řadit blokové elementy vedle sebe, kuk sem  */
+  justify-content: center; /* Zarovnáme položky menu na střed */
+}
+.menu a { /* Tohle je zanořený selektor, platí pro všechny odkazy uvnitř menu */
+  padding: 10px;
+}
+section {
+  height: 100vh; /* Magická jednotka odpovídající 1 % výšky viewportu, existuje i vw na šířku */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Tohle vertikálně zarovná text odstavců na střed */
+}
+
+.menu-button {
+  display: none;
+}
+@media (min-width: 751px) {
+  .menu {
+    display: block !important;
+  }
+}
+@media (max-width: 750px) {
+  .menu-button {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    background: black;
+  }
+  .menu {
+    display: none;
+    width: 6rem;
+    top: 55px;
+    right: 0px;
+  }
+  .menu-items {
+    flex-direction: column;
+  }
+}
+
+</style>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+  </head>
+  <body>
+    <a href="#" class="menu-button">Menu</a>
+
+  	<div class="menu">
+  <div class="menu-items">
+    <a href="#section1">
+      První sekce
+    </a>
+    <a href="#section2">
+      Druhá sekce
+    </a>
+    <a href="#section3">
+      Třetí sekce
+    </a>
+    <a href="#section4">
+      Čtvrtá sekce
+    </a>
+    <a href="#section5">
+      Pátá sekce
+    </a>
+  </div>
+</div>
+
+<section id="section1">
+<p class="container">
+
+
+K aktuálnímu problému vám chci sdělit, že sPD také odmítá obsahové řízení práce České televize z Bruselu. Tím se míní svoboda šířit pomluvy, propagandu a lži o politických a mediálních konkurentech Kavárny. Mluvil jsem o tom s panem prezidentem, když jsme se naposledy viděli. S mojí přítelkyní jsme jednou navštívili mešitu a pak mě opustila! Nový e-shop SPD s propagačními předměty SPD - placky (12 Kč), samolepky (5 Kč), čepice, plastové kolečko do nákupního vozíku atd.
+</p>
+</section>
+<section id="section2">
+<p class="container">
+
+
+Důrazně protestujeme proti tomu, aby se příjmení kolegy Kottena záměrně rozkoktávalo. Do posilovny chodím několikrát za rok a už to na mě začíná být vidět. Útoky jdou na každého, kdo není politická loutka. Zeman, Duka, Okamura... to jsou jména lidí s řadou odlišných životních a politických názorů. Poslední vývoj a fakta v kauze “Novičok“ potvrdily správnost postoje SPD. Ukazuje se, že Česká republika je vtahována do kampaně, která je zaměřena na prohlubování napětí s Ruskem. Za naši prohru může hlavně Česká pošta, která v Karlových Varech neroznesla naše letáčky.
+</p>
+</section>
+<section id="section3">
+<p class="container">
+
+
+Je výsměch tvrdit, že jsme v SPD náckové a fašisti. Tyhle ideologie měly alespoň nějakou kulturu. Žádné pseudokoncentráky jsem u nás neviděl. Tohle je skandální! Kdy přesně se nám zkorumpovaná média chystala oznámit, že v českých školách naše děti učí arabské číslice? Už je to tady a naplňuje se to, na co jsem upozorňoval. Mě volilo 500 tisíc, možná i půl milionu občanů!
+</p>
+</section>
+<section id="section4">
+<p class="container">
+SPD v žádném případě nezpochybňuje tvůrčí nezávislost. není pravda, že inteligence voličů SPD je na úrovni prvoků. Nedávno jsme jim dělali namátkové testy a většinou skončily pozitivně. Populismus této vlády skutečně přesahuje všechny meze. Je to pro nás úspěch, protože v politice jsme nováčci! Do posilovny chodím několikrát za rok a už to na mě začíná být vidět. Odpůrci tvrdí, že moje videa připomínají čtení lorem ipsum. Za prvé to není pravda a za druhé ani nevím, co to je. Kampaň je vedena s cílem zvrátit výsledek demokratických voleb a je vedena v zájmu nadnárodního řízení České republiky.
+</p>
+</section>
+<section id="section5">
+<p class="container">
+
+Proto alespoň zrušíme koncesionářské poplatky, jak jsme slíbili! Je třeba Evropské unii vyhlásit válku! Nástrojem tohoto řízení jsou neziskové organizace s politickým a ideologickým programem, napojené finančně a personálně na organizační síť George Sorose. Útoky jdou na každého, kdo není politická loutka. Zeman, Duka, Okamura... to jsou jména lidí s řadou odlišných životních a politických názorů. Mě bylo tak špatně, a tak jsem se potil, a byl jsem tak nadopovaný práškama, -což viděla celá republika, že já jsem přesně nevěděl na co se ptáte.
+</p>
+</section>
+
+
+<script src="jquery.min.js"></script>
+<script src="jquery.smoothscroll.js"></script>
+<script type="text/javascript">
+$('.menu-button').click(function(){
+    $('.menu').slideToggle();
+  })
+</script>
+  </body>
+</html>
